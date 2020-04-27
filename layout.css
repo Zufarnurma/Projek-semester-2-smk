@@ -1,0 +1,346 @@
+*{ 	overflow:hidden;
+	margin:0 auto;
+}
+#lobby{
+	font-family:Arial;
+	font-size:35px;
+	text-align:center;
+	font-style:bold;
+	background-image:url('bkgrnd.jpg');
+	height:720px;
+	width:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	color:#66ffcc;
+	border:white;
+	margin-bottom:67px;
+	border-width:12px;
+}
+#MButton{ 
+	opacity:100%;
+	height:45px;
+	padding:5px 9px 5px 9px; 
+	font-size:20px;
+}
+#MButton a{
+	opacity:100%;
+	background-color:white;
+	color:#133456;
+	padding:6px 9px 6px 9px; 
+	font-size:20px;
+	text-decoration:none;
+	border:1px solid #133456;
+}
+#MButton a:hover{
+	background-color:#133456;
+	color:cyan;
+	padding:6px 9px 6px 9px; 
+	font-size:20px;
+	text-decoration:none;
+	border:1px solid white; 
+	color:white;
+}
+
+#menu{
+	font-size:17px;
+	font-style:bold;
+	font-family:arial;
+    word-spacing: none;
+	width:100%;
+	height:20px;
+	padding: 10px 12px 10px 12px;
+	background-image:url('wood.jpg');
+	padding-bottom:90px;
+	opacity:0.61;
+	text-align:left;
+	color:white; 
+	position:fixed;
+}
+#menu a{
+	text-decoration:none;
+	padding: 10px 12px 10px 12px;
+	width:90px;
+	color:#99ff66;
+	opacity:100%;
+	border:1px solid cyan;
+	background-image:url('wl.jpg');
+	transition:0.8s;
+}
+.plat a{
+	float:right;
+	size:20px;
+	text-decoration:none;
+	border:1px solid grey;
+	font-size:16.6px;
+	background-color:#f2f2f2;
+	text-shadow:none;
+	color:black;
+	padding-left:9px;
+	padding-right:9px;
+}
+.plat input:hover{
+	border: 1px dashed blue;
+	
+}
+.plat input[type="button"]:hover {
+	float:right;
+	size:20px;
+	padding-right:12px;
+	border: 1px solid green;
+	padding-top:2px;
+	padding-bottom:1px;  
+	box-shadow: inset -1px 1px 2px black;
+}
+.plat input {
+	float:right;
+	size:20px;
+	padding-right:12px;
+	border: 1px solid green;
+	padding-top:2px;
+	padding-bottom:1px; 
+}
+.plat select{
+	float:right;
+	size:26px;
+	padding-left:52px;
+	
+}
+
+.plat t{
+	opacity:default;
+} 
+.plat{
+	background-color:grey;
+	border-radius:15px;
+	padding:20px 8px 20px 8px;
+	font-size:22px;
+	float:center;
+	width:35%;
+	text-shadow:2px 3px 2px #996633;
+	color:ffcc33;
+	text-align:left;
+	word-spacing:4px;
+	border:2px dashed #ea39be;
+	opacity:70%;
+	transition:1.7s;
+}
+.plat textarea{
+	float:right;
+	
+} 
+#kategori:hover a{
+	text-decoration:none; 
+	float:left;
+	background-image:url('bkgrnd.jpg');
+	border:1px solid white;
+	color:cyan;
+}
+#kategori{
+	color:cyan;
+	width:30px;
+	text-decoration:none; 
+	height:30px;
+	position:absolute;
+	border-radius:10px;
+	left:1%;
+	bottom:20%;
+	background-image:url('iron.jpg');
+	background-position:center;
+	background-size:cover;
+	font-size:16px;
+	justify-content:left;
+	transition:1.2s;
+	}
+#kategori:hover{
+	width:160px;
+	height:90px;  
+}
+#kategori:hover a:hover{
+	box-shadow:inset 1px 1px 2px white;
+	border:1px solid yellow;
+	width:110px;
+}
+#AT{
+	text-align:left;
+}
+#AT p{
+	text-align:right;
+} 
+#cari{
+	justify-content:right;
+	align-items:left;
+	width:42px; 
+	border: 2px solid green;
+	box-shadow:0px 0px 13px yellow;
+	border-radius:20px;
+	text-decoration:none;
+	height:42px;
+	text-align:right;
+	position:absolute;
+	left:1%;
+	top:26%;
+	transition:0.7s;
+	background-image:url('iron.jpg');
+	background-position:right;
+	background-size:cover;
+	float:center;
+	word-spacing:-1px;
+	display:flex; 
+}
+#cari input[type="text"]{ 
+	outline:none; 
+	background-color:transparent;
+	float:left;
+	height:47px;
+	font-size:15px;
+	text-align:center;
+	float: right;
+	text-shadow:0px 0px 1px #666600;
+}
+#cari input[type="image"]:hover{
+	background-image:url('wd.jpg');
+	box-shadow:inset 0px 0px 1px #666633;
+}
+#cari input[type="image"]{
+	background-image:url('wl.jpg');
+	height:44px;
+	width:44px;
+	float:left;
+	
+}
+#cari:hover{
+	width:18.6%;
+	border: 1px solid cyan;
+	box-shadow:0px 0px 13px cyan;
+}
+#ucontent{
+
+	float:center;
+	width:70%; 
+	font-family:arial;
+	font-size:18px;
+	background-image:url('wl.jpg');
+	background-size:cover;
+	border-right:8px solid grey;
+	border-left:8px solid grey;
+	box-shadow: 0px 2px 15px black;
+	color:#f7ed81;
+	text-shadow:0px 0px 7px black;
+}
+#ucontent tbody{
+	overflow:auto;
+}
+#ucontent th{
+	color:green;
+	text-shadow:0px 0px 3px white;
+}
+#ucontent td{
+	text-align:center;
+}
+#ucontent tr{ 
+	text-decoration:none;
+}
+#ucontent a:hover{ 
+	color:#6000cc;
+	text-shadow:0px 0px 9px #f1e98d;
+}
+#ucontent a{ 
+	text-decoration:none;
+	color:#f7ed81;
+}
+#ucontent input[name="jumlah"],input[id="maxx"]{
+	width:30px;
+}
+#ucontent input[type="submit"]{
+	float:center;
+	font-size:21;
+}
+#ucontent input{
+	float:right; 
+	font-size:14px;
+	background-color:yellow;
+	text-align:center;
+}
+#ucontent td img{
+	float:left;
+}
+
+#conten{
+	float:center;
+	width:70%; 
+	font-family:arial;
+	font-size:18px;
+	background-image:url('wl.jpg');
+	border-right:8px solid grey;
+	border-left:8px solid grey;
+	box-shadow: 0px 2px 15px black;
+	color:#2f3033;
+	text-shadow:0px 0px 3px white;
+	position:normal;
+	background-size:cover;
+} 
+#conten th{
+	background-image:url('wd.jpg');
+	color:#ffff66;
+}
+#conten tr{
+	color:#6699cc;
+	text-shadow:0px 0px 3px #003333;
+}
+#conten td a{
+	color:#6699cc;
+	text-shadow:0px 0px 3px #003333;
+}
+#conten tr:hover{
+	color:#99ccff;
+}
+#conten tr:hover a{
+	color:#99ccff;
+}
+#conten tr:hover a:hover{
+	color:#cc99cc;
+	text-shadow:0px 0px 7px #999933;
+}
+#conten a{
+	text-decoration:none;
+}
+#menu a:hover{
+	width:90px;
+	height:49px;
+	padding: 10px 12px 10px 12px;
+	opacity:1.00;
+	color:white;
+	border:1px solid #ccff00;
+	background-image:url('wl.jpg');
+	box-shadow: inset 4px 2px 3px black;
+}
+#description{
+	font-family:arial;
+	font-size:18px;
+	text-align:center-right;
+	font-style:bold;
+	
+}
+
+#log{
+	font-family:times new roman;
+	font-size:23px;
+	text-align:right;
+}
+#log a{
+	color:white;
+	border:1px dashed #133444;
+	opacity:100%;
+	transition:1s;
+}
+#admin table{ 
+	border:1px solid blue;
+}
+#admin tr{
+	background-color:#66cccc;
+}
+#log a:hover{
+	color:#99ff66;
+	opacity:100%;
+}

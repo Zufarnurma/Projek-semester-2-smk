@@ -177,7 +177,7 @@ $respon=mysqli_num_rows($semua);
 
 				echo "<td>Stok habis</td> ";
 
-				echo'<td>Rp.'.numberformat($row['harga']) .'</td> </tr> ';
+				echo'<td>Rp.'.$row['harga'] .'</td> </tr> ';
 
 			}
 

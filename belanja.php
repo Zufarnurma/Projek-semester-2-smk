@@ -163,7 +163,7 @@ $respon=mysqli_num_rows($semua);
 
 	echo "<td>".'<a href="detail.php?id='.$row['id_alat'].'"> Stok: '.$row['jumlah']."</td></a>";
 
-	echo'<td>'.'<a href="detail.php?id='.$row['id_alat'].'">Rp.'.numberfomat($row['harga']).'</td></a></tr> ';
+	echo'<td>'.'<a href="detail.php?id='.$row['id_alat'].'">Rp.'.$row['harga'].'</td></a></tr> ';
 
 			}
 
